@@ -1,0 +1,113 @@
+.parallax-container{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-index{
+	margin-top: -80px;
+	  height: 900px;
+    /* The image used */
+    background-image: url("https://static.wixstatic.com/media/39ab5f_e307ce7ee0d94e14bf1025d5548768e0~mv2.jpg/v1/fill/w_1440,h_900,al_c,q_85/39ab5f_e307ce7ee0d94e14bf1025d5548768e0~mv2.webp");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+}
+
+ .img1 {
+	height: 400px;
+	background-image: url("https://static.wixstatic.com/media/39ab5f_25e79aee93ac48bf8fb449f53c7495be~mv2.jpg/v1/fill/w_1154,h_570,al_c,q_85/39ab5f_25e79aee93ac48bf8fb449f53c7495be~mv2.webp");
+	min-height: 300px; 
+}
+.navbar-fixed {
+	opacity: 0.8;
+}
+
+.txtNew h1 {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.p-titre{
+    letter-spacing: 0.4em;	
+}
+
+.titre_index{
+	left: 50%;
+	margin-left: -42.7%;
+}
+
+
+.font_0 {
+    font: normal normal normal 110px/1.4em 'playfair display',serif;
+    color: #FFFFFF;
+}
+
+.font_5 {
+    font: italic normal normal 32px/1.4em 'playfair display',serif;
+    color: #4E4A42;
+}
+.font_8 {
+    font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #756F63;
+}
+.font_9 {
+    font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    color: #756F63;
+}
+
+@media only screen and (max-width: 764px) {	
+	.font_0 {
+		font: normal normal normal 55px 'playfair display',serif;
+		color: #FFFFFF;
+	}
+	.font_2 {
+		font: normal normal normal 40px/1.4em 'playfair display',serif;
+		font-style: normal;
+		font-variant-ligatures: normal;
+		font-variant-caps: normal;
+		font-variant-numeric: normal;
+		font-weight: normal;
+		font-stretch: normal;
+		font-size: 20px;
+		line-height: 1.4em;
+		font-family: "playfair display", serif;
+		color: #756F63;
+	}
+	.font_5 {
+		font: italic normal normal 16px/1.4em 'playfair display',serif;
+		color: #4E4A42;
+	}
+
+	.font_8 {
+		font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+		color: #756F63;
+	}
+	.font_9 {
+		font: normal normal normal 7px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+		font-size: 10px;
+		line-height: 0.7em;
+		font-family: avenir-lt-w01_35-light1475496, sans-serif;
+		color: #756F63;
+	}
+	.header-index{
+		  height: 700px;
+	}
+}
