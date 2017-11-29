@@ -1,0 +1,38 @@
+@media only screen and (max-width: 764px) {	
+	.font_0 {
+		font: normal normal normal 55px 'playfair display',serif;
+		color: #FFFFFF;
+	}
+	.font_2 {
+		font: normal normal normal 40px/1.4em 'playfair display',serif;
+		font-style: normal;
+		font-variant-ligatures: normal;
+		font-variant-caps: normal;
+		font-variant-numeric: normal;
+		font-weight: normal;
+		font-stretch: normal;
+		font-size: 20px;
+		line-height: 1.4em;
+		font-family: "playfair display", serif;
+		color: #756F63;
+	}
+	.font_5 {
+		font: italic normal normal 16px/1.4em 'playfair display',serif;
+		color: #4E4A42;
+	}
+
+	.font_8 {
+		font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+		color: #756F63;
+	}
+	.font_9 {
+		font: normal normal normal 7px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+		font-size: 10px;
+		line-height: 0.7em;
+		font-family: avenir-lt-w01_35-light1475496, sans-serif;
+		color: #756F63;
+	}
+	.header-index{
+		  height: 700px;
+	}
+}
