@@ -36,6 +36,46 @@
     letter-spacing: normal;
 }
 
+#modal1 {
+	width:50em;
+	height:35em;
+}
+
+.map{
+	float:left;
+	height:300px;
+}
+
+.map path{
+	fill:#dbd2d2;
+	stroke-width:1px;
+	stroke:white;
+	transition:0.3s;
+}
+.map path:hover{
+	fill:#d80f0f;
+	stroke-width:1px;
+	stroke:white;
+	transition:0.3s;
+}
+.map path.important{
+	fill:#a59f9f;
+	stroke-width:1px;
+	stroke:white;
+	transition:0.3s;
+}
+.map path.important:hover{
+	fill:#d80f0f;
+	stroke-width:1px;
+	stroke:white;
+	transition:0.3s;
+}
+
+.zoom {
+	margin-top:3em;
+}
+
+
 .p-titre{
     letter-spacing: 0.4em;	
 }
@@ -44,6 +84,13 @@
 	left: 50%;
 	margin-left: -42.7%;
 }
+
+.moi{
+	fill:#a59f9f;
+	stroke-width:2px;
+	stroke:white;
+}
+
 
 
 .font_0 {
