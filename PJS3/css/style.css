@@ -5,6 +5,13 @@
     background-size: cover;
 }
 
+.bande-couleur{
+    background-color: rgb(241, 196, 15);
+    height :;
+    padding:1em 2em 1em 2em;
+    
+}
+
 .header-index{
 	margin-top: -80px;
 	  height: 900px;
@@ -21,6 +28,12 @@
 	height: 400px;
 	background-image: url("https://static.wixstatic.com/media/39ab5f_25e79aee93ac48bf8fb449f53c7495be~mv2.jpg/v1/fill/w_1154,h_570,al_c,q_85/39ab5f_25e79aee93ac48bf8fb449f53c7495be~mv2.webp");
 	min-height: 300px; 
+}
+ .entete-fromage {
+	margin-top: -80px;
+    height: 650px;
+    /* The image used */
+    background-image: url("https://static.wixstatic.com/media/39ab5f_3a5aeeeca11448f8a0a6ec26f1ff7eed~mv2_d_2500_1547_s_2.jpg/v1/fill/w_1920,h_1188,al_c,q_85,usm_0.66_1.00_0.01/39ab5f_3a5aeeeca11448f8a0a6ec26f1ff7eed~mv2_d_2500_1547_s_2.webp");
 }
 .navbar-fixed {
 	opacity: 0.8;
@@ -65,6 +78,7 @@
 	transition:0.3s;
 }
 .map path.important:hover{
+	cursor: pointer;
 	fill:#d80f0f;
 	stroke-width:1px;
 	stroke:white;
@@ -120,6 +134,9 @@
     color: #756F63;
 }
 
+.page-footer{
+	background-color: rgb(51, 51, 51);
+}
 @media only screen and (max-width: 764px) {	
 	.font_0 {
 		font: normal normal normal 55px 'playfair display',serif;

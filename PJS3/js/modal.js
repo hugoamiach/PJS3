@@ -19,9 +19,3 @@
       complete: function() { alert('Closed'); } // Callback for Modal close
     }
   );
-  
-  
-  $(document).ready(function(){
-    $('.tooltipped').tooltip({delay: 50});
-  });
-        
